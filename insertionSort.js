@@ -12,16 +12,16 @@ for (var i = 1; i <= arr.length-1; i++){
 
 
   while ( arr[checkArrIndex -1] > pick){
-    console.log("arr1",arr);
+          console.log("arr1",arr);
     //write over the current index value with the previous
     arr[checkArrIndex] = arr[checkArrIndex -1];
     //index is now moved to the previous index
     checkArrIndex = checkArrIndex -1;
-    console.log("arr2",arr);
     shifted =true;
      j++;
-    console.log("How many shifted times",j);
+            console.log("How many shifted times",j);
             console.log("pick",pick);
+            console.log(arr);
   }
   if(shifted === true){
             console.log("shifted2", shifted);
