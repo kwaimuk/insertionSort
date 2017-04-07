@@ -9,6 +9,11 @@ describe('insertionSort',() => {
     expect(insertionSort).to.be.a('function');
   });
 
+  it('should do a simple sort of an array of a lenth of 1',() => {
+expect(insertionSort([0])).to.deep.equal([0]);
+  });
+
+
   it('should do a simple sort of an array of a lenth of 3',() => {
   expect(insertionSort([3,2,4])).to.deep.equal([2,3,4]);
     });
